@@ -1,0 +1,121 @@
+/* login.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-placeholder-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .search {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-right button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    margin-top: 10px;
+  }
+  
+  form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Esta propiedad hará que el footer se ubique al final de la página */
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media a {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    background-size: cover;
+    display: inline-block;
+  }
+  
+  .icon-facebook {
+    background-image: url('../assets/img/faceicon.png');
+  }
+  
+  .icon-twitter {
+    background-image: url('../assets/img/twittericon.png');
+  }
+  
+  .icon-instagram {
+    background-image: url('../assets/img/instaicon.png');
+  }
+  

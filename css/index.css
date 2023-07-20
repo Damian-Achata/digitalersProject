@@ -47,35 +47,38 @@ header {
   .right-section {
     flex: 1;
   }
-  
-  /* Estilos para el footer */
   footer {
-    background-color: #333;
+    background-color: #007bff;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
   }
   
   .social-media a {
-    display: inline-block;
     width: 30px;
     height: 30px;
     margin: 0 5px;
-    background-color: #fff;
-    border-radius: 50%;
+    background-size: cover;
+    display: inline-block;
   }
   
   .icon-facebook {
-    background-color: #3b5998;
+    background-image: url('../assets/img/faceicon.png');
   }
   
   .icon-twitter {
-    background-color: #1da1f2;
+    background-image: url('../assets/img/twittericon.png');
   }
   
   .icon-instagram {
-    background-color: #c32aa3;
+    background-image: url('../assets/img/instaicon.png');
   }
-.logo-placeholder-image{
-    width: 150px;
+  
+.logo-placeholder-image {
+  width: 150px;
 }  
